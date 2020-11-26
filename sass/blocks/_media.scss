@@ -55,7 +55,7 @@
             font-size: 14px;
         }
         &__icons {
-            max-width: 550px;
+            width: 400px;
         }
     }
     .header {
@@ -70,7 +70,10 @@
     }
     &__phone {
         font-size: 10px;
-
+    }
+    .button {
+        width: 110px;
+        font-size: 10px;
     }
     }
 
