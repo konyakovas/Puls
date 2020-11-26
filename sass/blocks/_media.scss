@@ -13,6 +13,11 @@
    }
 }
 @media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+       }
+    }
     .advantages {
     .title {
         font-size: 26px;
@@ -51,6 +56,9 @@
     }
     &__official {
         display: none;
+    }
+    &__phone {
+
     }
     }
 
