@@ -56,6 +56,22 @@
         }
         &__icons {
             width: 400px;
+            padding: 0 15px 0 15px;
+        }
+        &__icon {
+            width: 80px;
+            font-size: 10px;
+        }
+        &__link {
+            margin-top: 10px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 400
+        }
+        .button_main {
+            width: 210px;
+            height: 35px;
+            font-size: 12px
         }
     }
     .header {
@@ -74,6 +90,18 @@
     .button {
         width: 110px;
         font-size: 10px;
+    }
+    }
+    .advantages {
+    &__wrapper {
+        display: block;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center
+        ;
     }
     }
 
