@@ -17,6 +17,7 @@
         padding: 0 15px 0 15px;
     }
     .promo {
+        padding: 20px 0 20px 0;
         &__wrapper {
             align-items: center;
        }
@@ -39,6 +40,7 @@
         justify-content: space-around;
     }
     .promo {
+        padding: 20px 0 20px 0;
         &__wrapper {
             align-items: center;
        }
@@ -52,7 +54,9 @@
 }
 @media (max-width: 575px) {
     .promo {
-        max-width: 100%;
+        min-height: 500px;
+        padding: 20px 0 20px 0;
+        background-size: 100% 100%;;
         &__header {
             font-size: 24px;
         }
