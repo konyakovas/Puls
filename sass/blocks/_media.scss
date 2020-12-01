@@ -33,6 +33,22 @@
         padding: 0 15px 0 15px;
     }
     }
+
+    .consultation {
+        .title {
+            &_left {
+                font-size: 20px;
+            }
+            }
+    
+        padding: 50px 0 46px 0;
+        min-height: 600px;
+    &__descr {
+        margin-top: 40px;
+        font-size: 12px;
+
+    }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -50,6 +66,15 @@
         &__item {
             max-width: 220px;
         }
+    }
+    .consultation {
+        padding: 50px 0 46px 0;
+        min-height: 680px;
+    &__descr {
+        margin-top: 40px;
+        font-size: 12px;
+
+    }
     }
 }
 @media (max-width: 575px) {
