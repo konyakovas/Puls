@@ -49,6 +49,19 @@
 
     }
     }
+    .carousel {
+        .container {
+            .carousel__inner {
+                .slick-list {
+        .slick-slide {
+                display: block;
+                width: 600px;
+                margin: 0 auto;  
+        }
+                }
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
