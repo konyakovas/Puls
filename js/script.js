@@ -8,22 +8,26 @@ $(document).ready(function(){
           {
             breakpoint: 1200,
             settings: {
-              autoplay : true,
+              autoplay : false,
               variableWidth:true,
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              centerMode: true,
-              dots: true,
-              arrows: false,
-           },
-            breakpoint: 992,
-            settings: {
-              autoplay : true,
               slidesToShow: 1,
               slidesToScroll: 1,
+              centerMode: true,
               dots: false,
               arrows: true,
-            },
+            }
+           },
+          {
+            breakpoint: 992,
+            settings: {
+              autoplay : false,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+              arrows: false,
+            }
+          },
+          {
             breakpoint: 767,
             settings: {
               autoplay: true,  
@@ -33,19 +37,21 @@ $(document).ready(function(){
               centerMode:true,
               dots:false,
               arrows:false
-           },
+            }
+          },
+          {
             breakpoint: 575,
             settings: {
               autoplay : false,
               variableWidth:true,
-              slidesToShow: 1,
-              slidesToScroll: 1,
+              slidesToShow: 3,
+              slidesToScroll: 3,
               centerMode:false,
               dots:false,
               arrows:false,
-           },
+           }
            
-          }
+          },
         ]
       });
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
