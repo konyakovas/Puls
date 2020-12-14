@@ -5,31 +5,46 @@ $(document).ready(function(){
         prevArrow:'<button type="button" class="slick-prev"> <img src="../icons/carousel/left.png"> </button>',
         nextArrow:'<button type="button" class="slick-next"><img src="../icons//carousel/right.png"></button>',
         responsive: [
-          {breakpoint: 1200,
+          {
+            breakpoint: 1200,
             settings: {
+              autoplay : true,
               variableWidth:true,
-             slidesToShow: 1,
-             slidesToScroll: 1,
-             centerMode:true,
-             dots:false,
-             arrows:false,
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              centerMode: true,
+              dots: true,
+              arrows: false,
            },
             breakpoint: 992,
             settings: {
+              autoplay : true,
               slidesToShow: 1,
-             slidesToScroll: 1,
+              slidesToScroll: 1,
               dots: false,
-              arrows: false,
+              arrows: true,
             },
             breakpoint: 767,
             settings: {
-            variableWidth:true,
-             slidesToShow: 1,
-             slidesToScroll: 1,
-             centerMode:true,
-             dots:false,
-             arrows:false,
+              autoplay: true,  
+              variableWidth:true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              centerMode:true,
+              dots:false,
+              arrows:false
            },
+            breakpoint: 575,
+            settings: {
+              autoplay : false,
+              variableWidth:true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              centerMode:false,
+              dots:false,
+              arrows:false,
+           },
+           
           }
         ]
       });

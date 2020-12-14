@@ -179,5 +179,13 @@
     }
     }
     }
-
+    .carousel {
+        .slick-prev, .slick-next {
+            display: none;
+        }
+        .slick-slide img {
+            width: 200px;
+            margin: 0 auto;
+        }
+    }
 }
