@@ -44,10 +44,10 @@ $(document).ready(function(){
             settings: {
               autoplay : false,
               variableWidth:true,
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               centerMode:false,
-              dots:false,
+              dots: true,
               arrows:false,
            }
            
