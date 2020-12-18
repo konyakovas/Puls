@@ -45,6 +45,7 @@
     }
 
     .consultation {
+        padding-left: 15px;
         .title {
             &_left {
                 font-size: 20px;
@@ -69,8 +70,6 @@
             visibility: hidden;    
             }
         }
-        
-
         .slick-prev, .slick-next {
             display: none;
         }
@@ -98,7 +97,7 @@
         }
     }
     .consultation {
-        padding: 50px 0 46px 0;
+        padding: 50px 0 46px 15px;
         min-height: 680px;
     &__descr {
         margin-top: 40px;
@@ -121,6 +120,15 @@
             margin: 0 auto;
         }
     }
+    .catalog {
+    &__content {
+        display: none;
+        &_active {
+            justify-content: space-around;
+    
+        }
+    }
+}
 }
 @media (max-width: 575px) {
     .promo {
@@ -196,6 +204,11 @@
     }
     }
     }
+    .consultation {
+        padding: 100px 0 92px 15px;
+        min-height: 680px;
+        background: url(../img/bg/consultation.jpg) center center/cover no-repeat;
+    }
     .carousel {
         padding: 40px 0;
         width: 400px;
@@ -212,9 +225,11 @@
         }
     }
     .catalog {
-        
         &__content {
-            justify-content: center;
+            &_active {
+                justify-content: space-around;
+            }
+            
         }
     }
 }
