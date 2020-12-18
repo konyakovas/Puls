@@ -208,8 +208,13 @@
             font-size: 45px;
         }
         .slick-slide img {
-            margin: 0 0 0 30px;
-
+            margin: 0 0 0 0px;
+        }
+    }
+    .catalog {
+        
+        &__content {
+            justify-content: center;
         }
     }
 }
