@@ -24,34 +24,31 @@ $(document).ready(function(){
               slidesToShow: 1,
               slidesToScroll: 1,
               dots: true,
-              arrows: false,
+              arrows: true,
             }
           },
           {
             breakpoint: 767,
             settings: {
-              autoplay: true,  
-              variableWidth:true,
+              autoplay: false,  
               slidesToShow: 1,
               slidesToScroll: 1,
               centerMode:true,
-              dots:false,
-              arrows:false
+              dots: true,
+              arrows: false
             }
           },
           {
             breakpoint: 575,
             settings: {
               autoplay : false,
-              variableWidth:true,
               slidesToShow: 1,
               slidesToScroll: 1,
-              centerMode:false,
-              dots: true,
+              centerMode:true,
+              dots: false,
               arrows:false,
            }
-           
-          },
+          }
         ]
       });
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {

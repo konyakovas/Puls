@@ -60,6 +60,7 @@
     }
     }
     .carousel {
+        padding: 40px 0;
         .slick-dots { 
             display: flex;
             justify-content: center;
@@ -108,6 +109,12 @@
     .carousel {
         .slick-prev, .slick-next {
             display: none;
+        }
+        .slick-dots { 
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            font-size: 45px;
         }
         .slick-slide img {
             width: 400px;
@@ -191,13 +198,18 @@
     }
     .carousel {
         padding: 40px 0;
-        width: 500px;
+        width: 400px;
+
         .slick-prev, .slick-next {
             display: none;
         }
+        .slick-dots { 
+            margin: 0;
+            font-size: 45px;
+        }
         .slick-slide img {
-            width: 200px;
-            margin: 0 auto;
+            margin: 0 0 0 30px;
+
         }
     }
 }
