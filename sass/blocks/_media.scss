@@ -106,6 +106,9 @@
     }
     }
     .carousel {
+    .carousel__inner {
+        width: 500px;
+    }
         .slick-prev, .slick-next {
             display: none;
         }
@@ -117,10 +120,13 @@
         }
         .slick-slide img {
             width: 400px;
-            margin: 0 auto;
+            margin: 0 auto ;
         }
     }
     .catalog {
+        .catalog__tab {
+            width: 175px;
+    }
     &__content {
         display: none;
         &_active {
@@ -213,6 +219,7 @@
         padding: 40px 0;
         width: 400px;
 
+
         .slick-prev, .slick-next {
             display: none;
         }
@@ -221,11 +228,14 @@
             font-size: 45px;
         }
         .slick-slide img {
-            margin: 0 0 0 0px;
+            margin: 0 auto;
         }
     }
     .catalog {
-        &__content {
+        .catalog__tab {
+            width: 165px;
+        }
+        .catalog__content {
             &_active {
                 justify-content: space-around;
             }

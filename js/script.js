@@ -33,9 +33,8 @@ $(document).ready(function(){
               autoplay: false,  
               slidesToShow: 1,
               slidesToScroll: 1,
-              centerMode:true,
               dots: true,
-              arrows: false
+              arrows: false,
             }
           },
           {
@@ -44,7 +43,6 @@ $(document).ready(function(){
               autoplay : false,
               slidesToShow: 1,
               slidesToScroll: 1,
-              centerMode:true,
               dots: false,
               arrows:false,
            }
