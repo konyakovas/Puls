@@ -1,5 +1,5 @@
 @media (max-width: 1199px) {
-    
+
    .promo {
     &__header {
         font-size: 35px;
@@ -228,12 +228,17 @@
             font-size: 45px;
         }
         .slick-slide img {
+            width: 50%;
             margin: 0 auto;
         }
     }
     .catalog {
+        h2 {
+            font-size: 25px;
+        }
         .catalog__tab {
             width: 165px;
+            font-size: 12px;
         }
         .catalog__content {
             &_active {
