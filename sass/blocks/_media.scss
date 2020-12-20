@@ -1,5 +1,4 @@
 @media (max-width: 1199px) {
-
    .promo {
     &__header {
         font-size: 35px;
@@ -218,8 +217,6 @@
     .carousel {
         padding: 40px 0;
         width: 400px;
-
-
         .slick-prev, .slick-next {
             display: none;
         }
@@ -245,6 +242,22 @@
                 justify-content: space-around;
             }
             
+        }
+    }
+}
+@media (max-width: 480px) {
+    .carousel {
+        width: 300px;
+        .slick-slide img {
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        .catalog__tab {
+            width: 120px;
+            font-size: 10px;
+
         }
     }
 }

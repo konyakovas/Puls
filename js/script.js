@@ -46,6 +46,17 @@ $(document).ready(function(){
               dots: false,
               arrows:false,
            }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                autoplay: true,
+                slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+              dots: false,
+
+            }
           }
         ]
       });
