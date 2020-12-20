@@ -50,7 +50,7 @@ $(document).ready(function(){
           {
               breakpoint: 480,
               settings: {
-                autoplay: true,
+                autoplay: false,
                 slidesToShow: 1,
               slidesToScroll: 1,
               arrows: false,
