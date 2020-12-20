@@ -253,13 +253,20 @@
         width: 300px;
         .slick-slide img {
             width: 300px;
-            margin: 0 auto;
+            margin: 0 30px;
         }
     }
     .catalog {
+        h2 {
+            font-size: 19px;
+        }
+        .catalog-item {
+            width: 260px;
+        }
         .catalog__tab {
-            width: 120px;
+            width: 95px;
             font-size: 10px;
+
 
         }
     }
