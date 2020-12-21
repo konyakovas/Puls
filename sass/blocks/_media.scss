@@ -266,8 +266,14 @@
         .catalog__tab {
             width: 95px;
             font-size: 10px;
-
-
+        }
+    }
+    .reviews {
+        &__item {
+            &_img {
+                width: 130px;
+                height: 130px;
+            }
         }
     }
 }

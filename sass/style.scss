@@ -10,11 +10,12 @@
 @import "blocks/carousel";
 @import "blocks/catalog";
 @import "blocks/_reviews";
+@import "blocks/footer";
 
 * {
     font-family: "Museo Sans Cyrl", sans-serif;}
 body {
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
     
 .container {
