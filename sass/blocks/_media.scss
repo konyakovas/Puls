@@ -79,6 +79,7 @@
         }
     }
     .modal {
+
         padding: 15px 30px 15px 29px;
     .modal__close {
         top: auto;
@@ -140,10 +141,14 @@
     
         }
     }
-    .modal {
-        padding: 15px 30px 15px 29px;
     }
-}
+    .modal { 
+        padding: 15px 30px 15px 29px;
+    .modal__close {
+        top: auto;
+    }
+    }   
+
 }
 @media (max-width: 575px) {
     .promo {
