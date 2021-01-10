@@ -18,8 +18,9 @@
         width: 600px;
         margin: 0 100px;
     }
-}   
     }
+
+}
 
 @media (max-width: 991px) {
     .header {
@@ -244,6 +245,13 @@
             
         }
     }
+    .modal {
+        min-width: 400px;
+    .modal__close {
+        top: 10px;
+        right: 5px;
+    }
+    }
 }
 @media (max-width: 480px) {
     .carousel {
@@ -300,6 +308,7 @@
 }    
 @media (max-width: 400px) { 
     .reviews {
+        padding: 0 10px 0 10px;
         &__item {
             align-items: center;
             display: flex;
@@ -324,6 +333,9 @@
             margin-bottom: 20px;
         }
 
+    }
+    .modal {
+        min-width: 300px;
     }
 }
 @media (max-width: 320px) { 
