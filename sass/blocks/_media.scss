@@ -77,6 +77,12 @@
             width: 500px;
             margin: 0 auto;
         }
+    }
+    .modal {
+        padding: 15px 30px 15px 29px;
+    .modal__close {
+        top: auto;
+    }
     }   
 }
 @media (max-width: 767px) {
@@ -133,6 +139,9 @@
             justify-content: space-around;
     
         }
+    }
+    .modal {
+        padding: 15px 30px 15px 29px;
     }
 }
 }
