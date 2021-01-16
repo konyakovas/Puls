@@ -95,6 +95,53 @@ $(document).ready(function(){
       $("#order .modal__descr").text($(".catalog-item__subtitle").eq(i).text());
       $(".overlay, #order").fadeIn('slow');
     });
-  })
+  });
+
+  //validate
+  function valideForms (form) { $ (form).validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      phone: "required",
+      email: {
+        required: true,
+        email: true
+      }
+    },
+    messages: {
+      name: {
+        required: "пожалуйства ввиде ваше имя",
+        minlength: jQuery.validator.format("Введите {0} символов!")
+      },
+      phone: "пожалуйста введите ваш номер телефона",
+      email: {
+        required: "Пожалуйста введите вашу почту",
+        email: "Ваш почтовый адрес должен содержать@"
+      }
+    }
+}); 
+  };
+
+  valideForms ("#consultation-form");
+  valideForms ("#consultation form");
+  valideForms ("#order form");
+
+  $("input[name=phone]").mask("+7(999) 999-99-99");
+
+  $('form').submit(function(e) {
+   // e.preventDefault();
+    $.ajax({ 
+      type: "POST",
+      url:"mailer/smart.php",
+      data: $(this).serialize()
+    }).done(function() {
+       $(this).find('input').val("");
+
+       $("form").trigger('reset');
+    });
+    return false;  
+  });
 
 });
